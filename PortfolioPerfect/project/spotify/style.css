@@ -75,7 +75,7 @@ header .menu_side  h1:hover {
 }
 header .menu_side .playlist h4 span{
     position: relative;
-    margin-right: 36px;
+    margin-right: 30px;
 }
 header .menu_side .playlist h4 span::before{
     content: '';
@@ -217,13 +217,14 @@ header .master_play h5 .subtitle{
    color: #4c5262;
 }
 header .master_play .icon{
-   font-size: 20px;
+   font-size: 22px;
    color: #fff;
    margin: 0px 20px 0px 40px;
    outline: none;
 }
 header .master_play .icon .bi{
  cursor: pointer;
+ margin: 2px 2px 0px 0px;
  outline: none;
 }
 header .master_play .icon .bi:nth-child(2){
@@ -430,8 +431,8 @@ header .master_play .vol input{
  }
  header .song_side nav .user img{
     position: absolute;
-    width: 30px;
-    height: 30px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     box-shadow: 2px 2px 8px #131312;
  }
