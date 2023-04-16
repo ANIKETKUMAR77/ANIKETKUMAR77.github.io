@@ -4,35 +4,36 @@ const music = new Audio('');
 
 const songs = [{
         id: '1',
-        songName: ` On My Way <br>
-        <div class="subtitle">Alan Walker</div>`,
+        songName: ` Do You Know <br>
+        <div class="subtitle">Diljit Dosanjh </div>`,
         poster: "img/1.jpg"
     },
     {
         id: '2',
-        songName: ` Alan Walker-Fade <br>
-        <div class="subtitle">Alan Walker</div>`,
+        songName: `Apna Bana Le  <br>
+        <div class="subtitle">Bhediya</div>`,
         poster: "img/2.jpg"
     },
     // all object type 
     {
         id: "3",
-        songName: `Cartoon - On & On <br><div class="subtitle"> Daniel Levi</div>`,
+        songName: `Aadha Main Aadhi Vo _ Tabu _ B Praak_ Irshad Kamil_ Ravi Basrur _ Bhushan Kumar(MP3_160K)
+         <br><div class="subtitle"> _ Bholaa_ Ajay Devgn Levi</div>`,
         poster: "img/3.jpg",
     },
     {
         id: "4",
-        songName: `Warriyo - Mortals <br><div class="subtitle">Mortals</div>`,
+        songName: `Bapu Tere Karke (Full Song) _ Lovely Noor _ MixSingh _ New Punjabi Songs 2019(MP3_160K) <br><div class="subtitle">Amar Sandhu _ </div>`,
         poster: "img/4.jpg",
     },
     {
         id: "5",
-        songName: `Ertugrul Gazi <br><div class="subtitle">Ertugrul</div>`,
+        songName: ` Lahore (Official Video) Bhushan Kumar _ Vee _ DirectorGifty _ T-Series(MP3_160K)<br><div class="subtitle">Guru Randhawa_</div>`,
         poster: "img/5.jpg",
     },
     {
         id: "6",
-        songName: `Electronic Music <br><div class="subtitle">Electro</div>`,
+        songName: `KAKA Shape  <br><div class="subtitle">kaka</div>`,
         poster: "img/6.jpg",
     },
 
@@ -92,6 +93,227 @@ const songs = [{
         id: "17",
         songName: `Agar Tum Sath Ho <br><div class="subtitle">Tamashaa</div>`,
         poster: "img/17.jpg",
+    },
+    {
+        id: "18",
+        songName: `Warriyo - Mortals <br><div class="subtitle">Mortals</div>`,
+        poster: "img/18.jpg",
+    },
+    {
+        id: "19",
+        songName: `Ertugrul Gazi <br><div class="subtitle">Ertugrul</div>`,
+        poster: "img/19.jpg",
+    },
+    {
+        id: "20",
+        songName: `Electronic Music <br><div class="subtitle">Electro</div>`,
+        poster: "img/20.jpg",
+    },
+
+    {
+        id: "21",
+        songName: `Diamond _ Official Music Video  _ Songs 2018 _ Jass Records(MP3_160K) <br><div class="subtitle">Gurnam Bhullar</div>`,
+        poster: "img/21.jpg",
+    },
+    {
+        id: "22",
+        songName: `Aaya Ye Jhund Hai (Video) Jhund _  _ Ajay-Atul _ Nagraj _ Bhushan Kumar(MP3_160K) <br><div class="subtitle">Amitabh Bachchan</div>`,
+        poster: "img/22.jpg",
+    },
+    {
+        id: "23",
+        songName: `Aladdin _ Sab Sahi Hai Bro - Badshah(MP3_160K)<br><div class="subtitle">Badshah</div>`,
+        poster: "img/23.jpg",
+    },
+    {
+        id: "24",
+        songName: `Alcoholia_Vikram Vedha _  _ Vishal-Sheykhar_ Manoj M _Snigdhajit_Ananya(MP3_160K)<br><div class="subtitle">Hrithik Roshan_ Saif Ali Khan</div>`,
+        poster: "img/24.jpg",
+    },
+    {
+        id: "25",
+        songName: ` THUG LIFE _ Jatinder Shah _ Ranbi(MP3_160K) <br><div class="subtitle">Diljit Dosanjh _</div>`,
+        poster: "img/25.jpg",
+    },
+    {
+        id: "26",
+        songName: `Arijit Singh_ Pachtaoge _ _ Nora Fate(MP3_160K) <br><div class="subtitle">Vicky Kaushal</div>`,
+        poster: "img/26.jpg",
+    },
+
+
+    {
+        id: "27",
+        songName: ` LYRICAL_ Dil Todeya _ Arjun Patiala _ Diljit Dosan(MP3_160K) <br><div class="subtitle">Diljit Dosan</div>`,
+        poster: "img/27.jpg",
+    },
+    {
+        id: "28",
+        songName: ` Gaal Ni Kadni _  _ Desi Crew _ Latest(MP3_160K) <br><div class="subtitle">Parmish Verma</div>`,
+        poster: "img/28.jpg",
+    },
+    {
+        id: "29",
+        songName: `Bad Boy _ Saaho _ Prabhas_ Jacqueline(MP3_160K)<br><div class="subtitle">Saaho _ Prabhas</div>`,
+        poster: "img/29.jpg",
+    },
+    {
+        id: "30",
+        songName: ` Baadshaho_ Socha Hai Lyrical _ Emraan Hashmi_ E(M4A_128K) <br><div class="subtitle">Emraan Hashmi</div>`,
+        poster: "img/30.jpg",
+    },
+    {
+        id: "31",
+        songName: `Birthday Gift  _ Mistabaaz(MP3_160K) <br><div class="subtitle"> Sharry Mann</div>`,
+        poster: "img/31.jpg",
+    },
+    {
+        id: "32",
+        songName: `Dasi Na Mere Bare (Full Video) _ Goldy _ Latest Pu(MP3_160K) <br><div class="subtitle">Goldy </div>`,
+        poster: "img/32.jpg",
+    },
+    {
+        id: "33",
+        songName: ` GIRLFRIEND _ JASS MANAK (Official Video) Satti Dhi(MP3_160K) <br><div class="subtitle">JASS MANAK</div>`,
+        poster: "img/33.jpg",
+    },
+    {
+        id: "34",
+        songName: `Laembadgini(MP3_160K)<br><div class="subtitle">Diljit Dusanj</div>`,
+        poster: "img/34.jpg",
+    },
+    {
+        id: "35",
+        songName: ` Garmi Song _ Street Dancer 3D _ Varun D_ Nora F_ S(MP3_160K) <br><div class="subtitle">Varun D_ Nora F</div>`,
+        poster: "img/35.jpg",
+    },
+    {
+        id: "36",
+        songName: ` Ik Mulaqaat - Dream Girl __ Nus(MP3_160K) <br><div class="subtitle"> Ayushmann Khurrana</div>`,
+        poster: "img/36.jpg",
+    },
+    {
+        id: "37",
+        songName: ` Je Yaar Ni Banana Goriye Menu Jhaanjar Bana Le Per ki _ B Praak_ Janni _ Gippy G_ Jasmin b_ New Song(MP3_320K) <br><div class="subtitle">B Praak_ Janni _ Gippy G_ </div>`,
+        poster: "img/37.jpg",
+    },
+    {
+        id: "38",
+        songName: ` Ikk Vaari Hor Soch Lae _ Harish Verma _ Jaani _ B Praak _ Latest Punjabi Song 2016 _ Speed Records(MP3_320K) <br><div class="subtitle">Harish Verma _ Jaani _ B Praak </div>`,
+        poster: "img/38.jpg",
+    },
+    {
+        id: "39",
+        songName: ` - Siftan  _ Khushboo Khan _ New Song 2023 _ Punjabi Song _ Kaka Song(MP3_160K) <br><div class="subtitle">Kaka </div>`,
+        poster: "img/39.jpg",
+    },
+    {
+        id: "40",
+        songName: `  Viah Di Khabar Ek Khat Bewaqt Bhejya Kyon Kargi Khata kudiye New Punjabi Songs 2022(MP3_320K) <br><div class="subtitle">Kaka </div>`,
+        poster: "img/40.jpg",
+    },
+
+    {
+        id: "41",
+        songName: `  Thumkeshwari - Bhediya _ Varun Dhawan_ Kriti S_ Shraddha K _ Sachin-Jigar_Rashmeet_ Ash K_ Amitabh B(MP3_160K) <br><div class="subtitle">Bhediya _ Varun Dhawan_  </div>`,
+        poster: "img/41.jpg",
+    },
+    {
+        id: "42",
+        songName: `  THE LAST RIDE   Sidhu Moose Wala _ Wazir Patar(MP3_160K) <br><div class="subtitle">Sidhu Moose Wala  </div>`,
+        poster: "img/42.jpg",
+    },
+    {
+        id: "43",
+        songName: `Seeti Maar _ Radhe - Your Most Wanted Bhai _ Salman Khan_ Disha Patani_Kamaal K_ Iulia V_DSP_Shabbir(MP3_160K) <br><div class="subtitle">Radhe </div>`,
+        poster: "img/43.jpg",
+    },
+
+    {
+        id: "44",
+        songName: `Same Beef Song _ BOHEMIA _ Ft. Sidhu Moose Wala _ Byg Byrd _ Punjabi Song _sidhumoosewala _bohemia(MP3_160K) <br><div class="subtitle">Sidhu Moose  </div>`,
+        poster: "img/44.jpg",
+    },
+    {
+        id: "45",
+        songName: `Same Time Same Jagah (Chaar Din) ●  ● Kulwinder Billa ● New Punjabi Songs(MP3_160K) <br><div class="subtitle">Sandeep Brar </div>`,
+        poster: "img/45.jpg",
+    },
+    {
+        id: "46",
+        songName: `sachiyan mhobat <br><div class="subtitle">Diljit Dusanjh </div>`,
+        poster: "img/46.jpg",
+    },
+    {
+        id: "47",
+        songName: `Phulkari _ Karan Randhawa (Official Video) Simar Kaur _ Rav Dhillon _ GK Digital _ Geet(MP3_160K) <br><div class="subtitle">Karan Randhawa </div>`,
+        poster: "img/47.jpg",
+    },
+    {
+        id: "48",
+        songName: ` Raat Di Gedi [THE G-MIX] _InTheMixWithGSP _ <br><div class="subtitle">Diljit</div>`,
+        poster: "img/48.jpg",
+    },
+    {
+        id: "49",
+        songName: `Preet Harpal_  Full Song _ Latest Punjabi Song 2016 _ T-Series Apnapunjab(MP3_160K) <br><div class="subtitle">Yaar Berozgaar</div>`,
+        poster: "img/49.jpg",
+    },
+    {
+        id: "50",
+        songName: `O Bedardeya (Full Video)  _ Ranbir_ Shraddha _ Pritam_Arijit Singh_ Amitabh B(MP3_160K) <br><div class="subtitle">Tu Jhoothi Main Makkaar </div>`,
+        poster: "img/50.jpg",
+    },
+    {
+        id: "51",
+        songName: `Naiyo Lagda - Kisi Ka Bhai Kisi Ki Jaan _  _ Himesh R_ Kamaal K_ Palak M(MP3_160K) <br><div class="subtitle">Salman Khan _ Pooja Hegde </div>`,
+        poster: "img/51.jpg",
+    },
+    {
+        id: "52",
+        songName: `Pyaar Hota Kayi Baar Hai (Full video)  _Ranbir_Shraddha_Pritam_Arijit_Amitabh(MP3_160K) <br><div class="subtitle">Tu Jhoothi Main Makkaar </div>`,
+        poster: "img/52.jpg",
+    },
+    {
+        id: "53",
+        songName: `Nashe Si Chadh Gayi _ Full Song _ Befikre_ Ranveer Singh_ Vaani Kapoor_ Arijit Singh_ Vishal-Shekhar(MP3_160K) <br><div class="subtitle">Befikre_ </div>`,
+        poster: "img/53.jpg",
+    },
+    {
+        id: "54",
+        songName: `Mumbai Saga_ Danka Baja (Official Video) Payal Dev Feat. Dev Negi _ (MP3_160K) <br><div class="subtitle">John Abraham _ Kajal Aggarwal </div>`,
+        poster: "img/54.jpg",
+    },
+    {
+        id: "55",
+        songName: `Milegi Milegi Video Song _  STREE _ Mika Singh _ (MP3_160K)<br><div class="subtitle">Sachin-Jigar _ Rajkummar Rao_ Shraddha Kapoor </div>`,
+        poster: "img/55.jpg",
+    },
+    {
+        id: "56",
+        songName: `MAGNET Song _ (MP3_160K)<br><div class="subtitle">Karan Singh Arora Ft. Natasa Stankov </div>`,
+        poster: "img/56.jpg",
+    },
+    {
+        id: "57",
+        songName: `Mann Bharryaa 2.0 – Official Video _  – Kiara _ B Praak _ Jaani(MP3_320K)(MP3_160K) <br><div class="subtitle">Shershaah _ Sidharth </div>`,
+        poster: "img/57.jpg",
+    },
+    {
+        id: "58",
+        songName: `OFFICIAL_ _Mitti Di Khushboo_ FULL VIDEO Song _ Ay(MP3_160K)<br><div class="subtitle"Aaushman khurana </div>`,
+        poster: "img/58.jpg",
+    },
+
+    {
+        id: "59",
+        songName: `pindu (MP3_160K) <br><div class="subtitle">pindu</div>`,
+        poster: "img/59.jpg",
+    },
+    {
+        id: "60",
+        songName: `Let Me Love You - Lyrics _ KHS India(MP3_160K) <br><div class="subtitle">Let Me Love You </div>`,
+        poster: "img/60.jpg",
     },
 
 ]
