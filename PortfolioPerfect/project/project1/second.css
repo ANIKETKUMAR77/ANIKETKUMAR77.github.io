@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(222, 230, 237);
+}
+
+.cont {
+    /* border: 2px solid rgb(31, 129, 210); */
+    margin-top: 50px;
+    /* height: 100%; */
+    /* width: 70%;
+    margin-left: 200px; */
+    background-color: rgb(222, 230, 237);
+}
+
+.bt1 {
+    color: black;
+}
