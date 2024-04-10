@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../TO DO LIST"
+		},
+		{
+			"path": "../../../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "github"
+	}
+}
